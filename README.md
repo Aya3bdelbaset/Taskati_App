@@ -57,7 +57,8 @@ lib/
 │   └── locale_keys.g.dart
 │
 └── main.dart
-
+<details>
+<summary>
 
 ## 🌍 Localization
 
@@ -88,4 +89,4 @@ Example:
       vertical: 20.h,
     )
 
-
+</summary>
