@@ -1,8 +1,8 @@
-#📝 Taskati App
+# 📝 Taskati App
 
 Taskati is a Flutter task management application designed to help users organize and manage their daily tasks through a simple and clean user interface.
 
-##✨ Features
+## ✨ Features
 
 - 👤 Create user profile
 - 📝 Task management
@@ -15,7 +15,7 @@ Taskati is a Flutter task management application designed to help users organize
 - ✅ Form validation
 - 🧭 Screen navigation
 
-##🛠️ Technologies
+## 🛠️ Technologies
 
 - Flutter
 - Dart
@@ -36,7 +36,7 @@ Taskati is a Flutter task management application designed to help users organize
 ```bash
 dart run easy_localization:generate --source-dir ./assets/translations -f keys -o locale_keys.g.dart -O lib/gen
 
-##📁 Project Structure
+## 📁 Project Structure
 
 ```text
 lib/
