@@ -23,6 +23,19 @@ Taskati is a Flutter task management application designed to help users organize
 - Easy Localization
 - Lottie
 
+  ## 📱 App Screens
+<p align="center">
+  <img src="assets/screenshots/flutter_01.png" width="200">
+    <img src="assets/screenshots/flutter_05.png" width="200">
+  <img src="assets/screenshots/flutter_06.png" width="200">
+</p>
+
+<details>
+<summary>🌍 Generate Localization Keys</summary>
+
+```bash
+dart run easy_localization:generate --source-dir ./assets/translations -f keys -o locale_keys.g.dart -O lib/gen
+
 ##📁 Project Structure
 
 ```text
@@ -44,14 +57,6 @@ lib/
 │   └── locale_keys.g.dart
 │
 └── main.dart
-
-
-## 📱 App Screens
-<p align="center">
-  <img src="assets/screenshots/flutter_01.png" width="200">
-    <img src="assets/screenshots/flutter_05.png" width="200">
-  <img src="assets/screenshots/flutter_06.png" width="200">
-</p>
 
 
 ## 🌍 Localization
@@ -84,8 +89,3 @@ Example:
     )
 
 
-<details>
-<summary>🌍 Generate Localization Keys</summary>
-
-```bash
-dart run easy_localization:generate --source-dir ./assets/translations -f keys -o locale_keys.g.dart -O lib/gen
